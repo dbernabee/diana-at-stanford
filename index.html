@@ -24,7 +24,7 @@
 
 <div style="display: flex; flex-direction: column; align-items: center;">
 
-  <!-- Zoomed bridge image (3x) -->
+  <!-- Zoomed bridge image -->
   <div style="
     display: flex;
     justify-content: center;
@@ -35,19 +35,38 @@
          style="width: 300px; height: auto; transform: scale(3);">
   </div>
 
-  <!-- Circle image (400x400), centered -->
+  <!-- Horizontal layout: left gif + circle + right gif -->
   <div style="
-    width: 400px;
-    height: 400px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    gap: 40px; /* space between items */
   ">
-    <img src="me-circle.png" alt="Me"
-         style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+
+    <!-- Left GIF/Image -->
+    <img src="fishy.gif" alt="Left gif"
+         style="width: 100px; height: 100px; object-fit: cover;">
+
+    <!-- Circle image -->
+    <div style="
+      width: 400px;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    ">
+      <img src="me-circle.png" alt="Me"
+           style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+    </div>
+
+    <!-- Right GIF/Image -->
+    <img src="fishy.gif" alt="Right gif"
+         style="width: 100px; height: 100px; object-fit: cover;">
+
   </div>
 
 </div>
+
 
 
   <script>
