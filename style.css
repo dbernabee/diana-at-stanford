@@ -14,8 +14,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 60px; /* spacing between words */
-  margin-top: 40px; /* space from the image above */
+  gap: 60px;
+  margin-top: 40px;
+  width: 100%;
 }
 
 .word-container span {
@@ -23,7 +24,6 @@
   font-family: "Russo One", sans-serif;
   font-size: 32px;
   letter-spacing: 2px;
-  position: relative;
   transition: all 0.3s ease;
   cursor: default;
 }
