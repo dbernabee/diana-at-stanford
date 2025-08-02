@@ -10,3 +10,27 @@
   font-style: normal;
 }
 
+.word-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px; /* spacing between words */
+  margin-top: 40px; /* space from the image above */
+}
+
+.word-container span {
+  color: white;
+  font-family: 'Staatliches', sans-serif; /* or your font */
+  font-size: 32px;
+  letter-spacing: 2px;
+  position: relative;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.word-container span:hover {
+  text-shadow: 0 0 8px #ffffffaa;
+  transform: scale(1.05);
+}
+
+
