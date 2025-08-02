@@ -20,7 +20,7 @@
 
 .word-container span {
   color: white;
-  font-family: 'Staatliches', sans-serif; /* or your font */
+  font-family: "Russo One", sans-serif;
   font-size: 32px;
   letter-spacing: 2px;
   position: relative;
